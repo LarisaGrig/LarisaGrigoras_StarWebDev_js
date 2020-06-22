@@ -1,0 +1,243 @@
+/*Specification {} */
+body {
+	font-family: 'MuseoSansCyrl-300', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+input, button, span, a {
+	font-family: 'MuseoSansCyrl-300', sans-serif;
+}
+ul, li {
+	font-family: 'MuseoSansCyrl-300';
+	display: block;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'MuseoSansCyrl-700';
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+div, header, footer, section, form, nav, p, span, a, button, img {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a, a:hover, a:active {
+	text-decoration: none;
+	cursor: pointer;
+}
+p, span {
+ line-height: 1.3em;
+}
+input, button {
+	outline: none !important;
+}
+
+
+/* ---------------head background foto -----------------{} */
+body {
+	overflow-x: hidden;
+}
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+.row  {
+	margin: 0;
+	padding: 0;
+}
+.col  {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: url('../img/PhotobyRebeAdeaidaonUnsplash.jpg') no-repeat center top / cover;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+/* ---------------navigation -----------------{} */
+.nav-bar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	max-width: 770px;
+	height: 70px;
+	margin: 0 auto;
+	background-color: #25236e;
+	border-radius: 0 0 100px 100px;
+}
+/* logo {} */
+.logo {
+	display: flex;
+	flex-direction: row;
+}
+.logo i {
+	font-weight: 700;
+	font-size: 30px;
+	color: #bd9780;
+	padding: 0;
+	margin: 0;
+}
+.logo p {
+	color: #bd9780;
+	font-weight: 900;
+	font-size: 30px;
+	padding: 0 10px;
+	margin: 0;
+} 
+.menu-bar {
+	color: #bd9780;
+	font-weight: 400;
+	font-size: 24px;
+	font-family: 'Satisfy', cursive;
+	padding: 0 30px;
+} 
+
+
+/* --------meteo_container {} ------------ */
+.meteo__container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 350px;
+	height: 400px;
+	border: solid 10px #bd9780;
+	background-color: rgba(37, 34, 109, 0.7);
+	margin-top: 50px;
+}
+
+/* --input styles {} -- */
+.meteo__input {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+input {
+	text-align: center;
+}
+input[type="text"]{
+	color: #25236e;
+	height: 38px;
+	width: 250px;
+	background-color: white;
+	font-weight: normal;
+	font-size: 16px;
+	border: 1px solid;
+	border-color: #bd9780;
+	border-radius: 3px;
+	padding: 10px;
+}
+.meteo__btn {
+	color: white;
+	font-size: 14px;
+	font-weight: normal;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	border-radius: 100px;
+	border: 1px solid #bd9780;
+	margin: -19px;
+	background-color: #0a5e30;
+	text-align: center;
+	padding-bottom: 1px;
+	display: block;
+}
+button:hover {
+	outline: none !important;
+	font-weight: bold;
+}
+
+
+/* --------meteo date {} ------------ */
+.meteo-inform {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	padding-left: 30px;
+}
+.meteo-inform li {
+	color: white;
+	font-weight: normal;
+	font-size: 16px;
+	padding: 10px;
+}
+
+/* ---------------footer -----------------{} */
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 70px;
+	color: white;
+	font-weight: normal;
+	font-size: 14px;
+	background-color: #907555;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*screen size {} */
+@media (max-width: 320px) {
+
+}
+@media (max-width: 425px) {
+ 	.logo i {
+		font-size: 18px;
+	}
+	.logo p {
+		font-size: 18px;
+	}
+	.menu-bar {
+		font-size: 18px;
+	}
+	input[type="text"]{
+		width: 215px;
+	}
+}
+@media (max-width: 576px) { 
+	.footer {
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 768px) { 
+	.logo i {
+		font-size: 25px;
+	}
+	.logo p {
+		font-size: 25px;
+	}
+	.nav-bar {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 1200px) {
+	
+}
+@media (min-width: 1200px) {
+	
+}
